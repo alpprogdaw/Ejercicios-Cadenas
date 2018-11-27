@@ -6,7 +6,7 @@ public class Ejer_2 {
 		Scanner in = new Scanner (System.in);
 		
 		String cadena_inversa = new String();
-		String cadena = null;
+		String cadena = null; //es lo mismo que new String()
 		
 		System.out.println("Introduzca una cadena de caracteres: ");
 		cadena = in.nextLine();
